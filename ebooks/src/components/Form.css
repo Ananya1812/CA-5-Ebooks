@@ -1,0 +1,132 @@
+/* Import the Rajdhani font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600;700&display=swap");
+
+/* Global styling */
+* {
+  font-family: "Rajdhani", sans-serif;
+}
+
+/* Registration container styling */
+.registration-container {
+  max-width: 400px;
+  margin: 30px auto 0;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Rajdhani", sans-serif;
+  background-color: white;
+}
+/*Adding styles to body*/
+body {
+  background-color: #fcb9b2;
+}
+
+/* Heading 2 styling */
+h2 {
+  text-align: center;
+}
+
+/* Logo link styling */
+.logo-link {
+  text-decoration: none;
+  margin: 0;
+}
+
+/* Main content styling */
+.main-content {
+  margin-top: 20px;
+}
+#home {
+  background-color: #ff8686;
+  padding: 3px 10px;
+  border: 1px solid rgb(138, 0, 0);
+  border-radius: 10px;
+  margin: 15px;
+}
+#home:hover {
+  background-color: #ff7a7a;
+}
+#link {
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+}
+/* Heading styling */
+.heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+/* Form container styling */
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input label styling */
+.input-label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Input field styling */
+.input-field {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  border: 2px solid #bb2222;
+}
+
+/* Error message styling */
+.error-message {
+  color: #e74c3c;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Submit button styling */
+.submit-button {
+  background-color: #ef3837;
+  width: 50%;
+  max-width: 200px;
+  padding: 10px 0px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 8px auto;
+}
+
+.submit-button:hover {
+  background-color: #bb2222;
+}
+
+/* Registration message styling */
+.registration-message {
+  text-align: center;
+}
+
+/* Registration success styling */
+.registration-success {
+  color: #2ecc71;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+/* Read joy styling */
+.read-joy {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Responsive styling for small screens */
+@media (max-width: 600px) {
+  .registration-container {
+    max-width: 100%;
+  }
+}

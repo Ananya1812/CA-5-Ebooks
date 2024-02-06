@@ -1,0 +1,124 @@
+/* Import the Rajdhani font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600;700&display=swap");
+
+/* Global styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rajdhani", sans-serif;
+}
+/*Adding styles to body*/
+body {
+  background-color: #fcb9b2;
+}
+
+/* Container for the book list */
+.book-list-container {
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px; /* Combine margin-bottom properties */
+  border-bottom: 2px solid #da1e37;
+  width: 100vw;
+  padding: 10px 8vw;
+}
+
+.header img {
+  height: 5%;
+  width: 5%;
+}
+
+h2 {
+  font-size: 3vw;
+  margin: 0;
+  font-weight: 700;
+  color: #da1e37;
+}
+
+/* Search bar container styling */
+.search-bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  flex-wrap: wrap;
+}
+
+/* Search input styling */
+.search-input {
+  padding: 10px;
+  width: 95%;
+  font-size: 16px;
+  border: 2px solid #da1e37; /* Combine border properties */
+  border-radius: 15px;
+}
+
+/* Register button styling */
+.register-button {
+  background-color: #ef3837;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #bb2222;
+}
+
+/* Book list styling */
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  max-width: 70vw;
+  margin: 20px auto;
+  justify-content: space-evenly;
+}
+
+/* Book card styling */
+.book-card {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.book-card:hover {
+  background-color: rgb(239, 239, 239);
+}
+/* Book thumbnail styling */
+.book-thumbnail {
+  max-height: 100%;
+}
+
+/* Book details styling */
+.book-details {
+  margin-top: 10px;
+}
+
+/* Book title styling */
+.book-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Book authors styling */
+.book-authors {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* Book rating styling */
+.book-rating {
+  font-size: 16px;
+  margin-top: 10px;
+}
